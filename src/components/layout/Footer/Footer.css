@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    width: 100%;
+}
+.container-footer {
+    background-color: #333; /* Cor de fundo do footer */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre as colunas */
+    align-items: flex-start; /* Alinha as colunas no topo */
+}
+
+.redes, .info, .links-uteis {
+    padding: 15px;
+    border-radius: 8px; /* Bordas arredondadas */
+    width: 30%; /* Largura das caixas */
+}
+
+.redes {
+    color: white;
+}
+
+.redes p {
+    margin: 10px 0; /* Espaçamento entre o texto e os ícones */
+    color: #f0ad4e; /* Cor do texto */
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.icon {
+    color: white; /* Cor dos ícones */
+    font-size: 45px; /* Tamanho dos ícones */
+    transition: color 0.3s; /* Transição suave na mudança de cor */
+}
+
+.icon:hover {
+    color: #f0ad4e; /* Cor ao passar o mouse (exemplo: laranja) */
+}
+
+.info, .links-uteis {
+    color: white;
+}
+
+.links-uteis h2 {
+    margin-bottom: 10px;
+}
+
+.developer-credit {
+    font-size: 18px; /* Fonte menor para o crédito */
+    color: #999; /* Cor suave para o crédito */
+    margin-top: 5px;
+}
+
+.developer-credit a {
+    text-decoration: none;
+    color: #f0ad4e; /* Cor do link */
+    transition: color 0.3s;
+}
+
+.developer-credit a:hover {
+    color: #ffffff; /* Cor ao passar o mouse */
+}

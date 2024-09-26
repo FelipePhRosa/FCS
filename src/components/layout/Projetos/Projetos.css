@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 100%;
+  }
+
+.section-pj{
+    background-color: #2594b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
+.header-pj{
+    position: relative;
+    right: 280px;
+    padding-top: 80px;
+    font-size: 40px;
+    font-family: "Sora", sans-serif;
+    color: white;
+}
+
+.box-pj{
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-pj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 15px;
+    width: 500px;
+    font-family: "Sora", sans-serif;
+    color: white;
+}
+
+.texto-pj h2{
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.texto-pj h3{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.texto-pj p{
+    font-size: 15px;
+    letter-spacing: 1.3px;
+}
+
+span{
+    font-weight: 800;
+}
+
+.img-pj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-pj img{
+    width: 450px;
+    box-shadow: 0px 0px 30px  rgb(66, 66, 66);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.img-pj img:hover{
+    width: 480px;
+    box-shadow: 0px 0px 20px  rgb(66, 66, 66);
+}
+
+.btn-saiba {
+    width: 130px;
+    padding: 10px;
+    position: relative;
+    border-radius: 7px;
+    background-color: rgb(255, 174, 0);
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    border: 0;
+    transition: 0.2s;
+}
+
+.btn-saiba:hover{
+    width: 150px;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.c1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Garante alinhamento vertical */
+    gap: 50px;
+}
+
+.c2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.btn-saiba2 {
+    width: 130px;
+    padding: 10px;
+    position: relative;
+    border-radius: 7px;
+    background-color: rgb(255, 174, 0);
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    border: 0;
+    transition: 0.2s;
+}
+
+.btn-saiba2:hover{
+    width: 150px;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.img-pj2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-pj2 img{
+    width: 450px;
+    box-shadow: 0px 0px 30px  rgb(66, 66, 66);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.img-pj2 img:hover{
+    width: 480px;
+    box-shadow: 0px 0px 20px  rgb(66, 66, 66);
+}
+
+/* Adicionado para melhor responsividade e controle de margens */
+@media (max-width: 768px) {
+    *{
+        box-sizing: border-box;
+    }
+  .c1 {
+    padding: 10px;
+    margin-left: 2vh;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .c2{
+    padding: 10px;
+    margin-left: 2vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .img-pj img, .img-pj2 img {
+    width: 100%; /* A imagem ocupa toda a largura disponível */
+    max-width: 450px; /* Limita o tamanho máximo */
+  }
+
+  .texto-pj {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .header-pj {
+    right: 0;
+    text-align: center;
+  }
+
+  .btn-saiba{
+    margin-bottom: 8vh;
+    width: 50%;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: rgb(255, 174, 0);
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    color: white;
+    overflow: hidden;
+    border: 0;
+    transition: 0.2s;
+  }
+
+  .btn-saiba:hover{
+    width: 50%;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    transition: 0.2s;
+}
+
+  .btn-saiba2{
+    width: 50%;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: rgb(255, 174, 0);
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    color: white;
+    overflow: hidden;
+    border: 0;
+    transition: 0.2s;
+  }
+
+  .btn-saiba2:hover{
+    width: 50%;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    transition: 0.2s;
+}
+
+}

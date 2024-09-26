@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 100%;
+  }
+/* Estilos gerais da área de doação via Pix */
+.pix-donation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f4f8;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    max-width: 400px;
+    margin: 0 auto;
+    animation: fadeIn 1.2s ease-in-out;
+    margin-bottom: 30px;
+}
+
+/* Animação de entrada suave */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Títulos */
+.donation-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2594b7;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.donation-subtitle {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* QR Code e área de cópia */
+.qr-code-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-code {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito de zoom ao passar o mouse no QR Code */
+.qr-code:hover {
+    transform: scale(1.1);
+}
+
+/* Botão de cópia da chave Pix */
+.copy-btn {
+    background-color: #2594b7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+/* Animação de pulso no botão */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Hover do botão */
+.copy-btn:hover {
+    background-color: #007aad;
+}
+
+/* Exibição da chave Pix */
+.pix-key {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pix-key span {
+    font-weight: bold;
+    color: #2594b7;
+}

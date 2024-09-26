@@ -1,0 +1,136 @@
+/* Container para vídeo e conteúdo */
+.container-header {
+    position: relative;
+    height: 100vh; /* Altura da tela inteira */
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Estilização do vídeo de fundo */
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Mantém o vídeo atrás do conteúdo */
+  }
+  
+  /* Conteúdo sobreposto ao vídeo */
+  .overlay-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  /* Estilo da logo e da navegação */
+  .Logo {
+    margin-left: 25vh;
+    width: 8%;
+    transition: 0.3s;
+  }
+  
+  .Logo:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    background: transparent; /* Transparente para sobrepor o vídeo */
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: inline-flex;
+    width: 60%;
+    gap: 40px;
+  }
+  
+  .nav ul li {
+    font-family: Sora, sans-serif;
+    font-weight: bold;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: rgba(255, 250, 179, 0.521);
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .nav ul li a:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+  }
+  
+  .doe-btn .Doe-agora {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(255, 250, 179, 0.521);
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  
+  .doe-btn .Doe-agora:hover {
+    color: rgba(255, 187, 0, 0.74);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Estilização do conteúdo principal sobreposto ao vídeo */
+  .header-content2 {
+    position: absolute;
+    top: 750%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+  }
+  
+  .header-content2 h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .header-content {
+    position: absolute;
+    top: 350%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+  }
+  
+  .header-content h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .header-content p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  span.header{
+    color: rgba(255, 255, 0, 0.842);
+  }
+
+
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .header-content h1 {
+      font-size: 2.5rem;
+    }
+    
+    .header-content p {
+      font-size: 1.2rem;
+    }
+  }
+  

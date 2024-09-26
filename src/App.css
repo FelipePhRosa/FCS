@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-image: url(/src/assets/background-desf.png);
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    *{
+        box-sizing: border-box;
+    }
+}
