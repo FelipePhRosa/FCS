@@ -160,6 +160,11 @@ span{
 }
 
 /* Adicionado para melhor responsividade e controle de margens */
+@media (max-width: 1360px) {
+    .header-pj{
+        text-align: center;
+    }
+} 
 @media (max-width: 768px) {
     *{
         box-sizing: border-box;

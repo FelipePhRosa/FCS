@@ -95,9 +95,9 @@ body{
   
   /* Estilização do conteúdo principal sobreposto ao vídeo */
   .header-content2 {
-    position: absolute;
-    top: 750%;
-    left: 80%;
+    position: relative;
+    top: 55%;
+    left: 120%;
     transform: translate(-50%, -50%);
     text-align: left;
     color: white;
@@ -109,9 +109,9 @@ body{
   }
 
   .header-content {
-    position: absolute;
-    top: 350%;
-    left: 25%;
+    position: relative;
+    top: 25%;
+    left: 58%;
     transform: translate(-50%, -50%);
     text-align: left;
     color: white;
@@ -142,6 +142,13 @@ body{
   }
 
   /* Responsividade */
+  @media (max-width: 1360px) {
+    .nav ul {
+      width: 70%;
+      gap: 20px;
+    }
+  }
+
   @media (max-width: 1024px) {
     .Logo {
       margin-left: 5vh;
@@ -214,7 +221,7 @@ body{
     }
 
     .header-content2 {
-      top: 80%;
+      top: 60%;
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
