@@ -103,19 +103,21 @@ body{
   }
   
   .conteudo, .conteudo2 {
-      max-width: 100%;
+    max-width: 100%;
   }
-
+  .container-objetivo{
+    font-size: 1px;
+  }
   .box-obj {
-    width: 90%;
+    width: 80%;
     padding: 20px;
   }
 
   .conteudo-obj h1 {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 
   .conteudo-obj p {
-    font-size: 4.5vw;
+    font-size: 2.5vw;
   }
 }

@@ -8,6 +8,7 @@ body{
     width: 100%;
 }
 .container-footer {
+    width: 100%;
     background-color: #333; /* Cor de fundo do footer */
     padding: 20px;
     text-align: center;
@@ -76,12 +77,29 @@ body{
 }
 
 @media (max-width: 768px) {
+    .footer{
+        display: flex;
+        font-size: 10px;
+    }
     .redes > p {
         display: none;
+    }
+    .links-uteis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .links-uteis > p{
+        font-size: 10px;
     }
     .icons{
         margin-top: 4vh;
         display: flex;
-        flex-direction: column;
+        gap: 10px;
+    }
+    .icon{
+        width: 30px;
+        
     }
 }

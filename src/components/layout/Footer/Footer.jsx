@@ -8,6 +8,12 @@ export default function Footer() {
     return (
         <div className="container-footer">
             <div className="footer">
+            <div className="links-uteis">
+                    <h2>Desenvolvimento</h2>
+                    <p className="developer-credit">
+                        Desenvolvido por <a href="https://www.linkedin.com/in/felipeprosa/" target="_blank" rel="noopener noreferrer">Felipe Rosa</a>
+                    </p>
+                </div>
                 <div className="redes">
                     <h2>Nossas Redes Sociais</h2>
                     <p>Siga-nos para atualizações, eventos e muito mais!</p>
@@ -26,16 +32,10 @@ export default function Footer() {
 
                 <div className="info">
                     <h2>Contato</h2>
-                    <p>E-mail: exemplo@ong.com | Telefone: (00) 1234-5678</p>
+                    <p>E-mail: exemplo@ong.com</p>
+                    <p>Telefone: (00) 1234-5678</p>
                     <p>Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
                     <p>Horário: Seg - Sex: 9h - 17h</p>
-                </div>
-                
-                <div className="links-uteis">
-                    <h2>Desenvolvimento</h2>
-                    <p className="developer-credit">
-                        Desenvolvido por <a href="https://www.linkedin.com/in/felipeprosa/" target="_blank" rel="noopener noreferrer">Felipe Rosa</a>
-                    </p>
                 </div>
             </div>
         </div>

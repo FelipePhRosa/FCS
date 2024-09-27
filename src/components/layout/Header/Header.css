@@ -9,8 +9,8 @@ body{
 }
 /* Container para vídeo e conteúdo */
 .container-header {
-    position: relative; /* Para que os filhos possam ser posicionados relativamente */
-    height: 100vh; /* Mantém a altura da tela inteira */
+    display: flex;
+    height: 100vh; /* Altura da tela inteira */
     width: 100%;
   }
   
@@ -209,7 +209,7 @@ body{
     }
 
     .header-content {
-      top: 40%;
+      top: 30%;
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
@@ -220,7 +220,7 @@ body{
     }
 
     .header-content2 {
-      top: 60%;
+      top: 45%;
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
