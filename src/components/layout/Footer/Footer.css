@@ -74,3 +74,14 @@ body{
 .developer-credit a:hover {
     color: #ffffff; /* Cor ao passar o mouse */
 }
+
+@media (max-width: 768px) {
+    .redes > p {
+        display: none;
+    }
+    .icons{
+        margin-top: 4vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
