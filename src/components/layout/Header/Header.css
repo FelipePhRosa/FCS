@@ -191,17 +191,23 @@ body{
     }
 
     .nav ul {
-      display: none;
+      list-style: none;
+      max-height: 0; /* Começa com altura zero */
+      overflow: hidden; /* Impede que o conteúdo transborde */
       flex-direction: column;
       width: 100%;
       text-align: center;
-      padding: 10px 0;
+      padding: 0; /* Remova o padding para uma transição limpa */
       background: rgba(0, 0, 0, 0.8);
       border-radius: 30px;
+      opacity: 0; /* Começa invisível */
+      transition: max-height 0.3s ease, opacity 0.3s ease; /* Transições suaves */
     }
-
+    
     .nav ul.menu-open {
-      display: flex;
+      max-height: 300px; /* Um valor alto suficiente para o menu */
+      opacity: 1; /* Torna o menu visível */
+      padding: 10px 0; /* Adiciona padding quando aberto */
     }
 
     .nav ul li {
