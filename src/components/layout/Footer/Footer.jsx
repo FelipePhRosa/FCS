@@ -18,15 +18,15 @@ export default function Footer() {
                     <h2>Nossas Redes Sociais</h2>
                     <p>Siga-nos para atualizações, eventos e muito mais!</p>
                     <div className="icons">
-                        <Link to={{ pathname: "https://www.instagram.com/ong_facaumacriancasonhar/" }} target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/ong_facaumacriancasonhar/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faInstagram} className="icon" />
-                        </Link>
-                        <Link to={{ pathname: "https://www.facebook.com/sua_pagina" }} target="_blank" rel="noopener noreferrer">
+                        </a>
+                    <a href="https://www.facebook.com/profile.php?id=100082262685400" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faFacebook} className="icon" />
-                        </Link>
-                        <Link to={{ pathname: "https://twitter.com/sua_conta" }} target="_blank" rel="noopener noreferrer">
+                        </a>
+                    <a href="https://wa.me/+555399162100" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faWhatsapp} className="icon" />
-                        </Link>
+                        </a>
                     </div>
                 </div>
 
