@@ -18,7 +18,7 @@ export default function PixDonation() {
           Copiar Chave Pix
         </button>
       </div>
-      <p className="pix-key">Chave Pix: <span>sua-chave-pix-aqui</span></p>
+      <p className="pix-key">Chave Pix: <span>(53) 9916-2100</span></p>
     </div>
   );
 }
