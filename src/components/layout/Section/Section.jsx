@@ -8,9 +8,9 @@ export default function Section() {
             {/* Quem Somos Section */}
             <div className="box">
                 <div className="conteudo">
-                    <h1>Quem Somos</h1>
-                    <p>Em 2020, um grupo de pesquisadores do estado de Minas Gerais desenvolveu o primeiro ensaio clínico adaptativo multiplataforma do Brasil, abordando diversos medicamentos promissores no tratamento inicial da COVID-19. Utilizando metodologia inovadora e modernas ferramentas de pesquisa, este ensaio tornou-se mundialmente reconhecido, com contribuições relevantes no tratamento inicial desta doença.</p>
-                    <p>O modelo de pesquisa adotado mostrou-se viável para estudarmos importantes agravos agudos e crônicos que afetam a saúde da população, especialmente ao nível da atenção primária. Criamos este instituto com a missão de desenvolvermos projetos de pesquisa voltados para a abordagem dos problemas de saúde ao nível da atenção primária, com foco no acesso universal aos cuidados em saúde.</p>
+                <h1>Quem Somos</h1>
+                <p>Fundado em 2020 por um grupo de pesquisadores do Rio Grande do Sul, nosso instituto liderou o primeiro ensaio clínico adaptativo multiplataforma do Brasil, focado em medicamentos promissores no tratamento inicial da COVID-19. Utilizando metodologias inovadoras e ferramentas modernas de pesquisa, o ensaio ganhou reconhecimento mundial por suas contribuições significativas.</p>
+                <p>Hoje, seguimos esse legado, aplicando o modelo de pesquisa em agravos agudos e crônicos que afetam a saúde pública, especialmente na atenção primária. Nosso objetivo é desenvolver projetos que promovam o acesso universal aos cuidados de saúde e melhorem a qualidade de vida da população.</p>
                 </div>
                 <div className="conteudo2">
                     <img src={crianca} className="crianca" />
@@ -22,7 +22,7 @@ export default function Section() {
                 <div className="box-obj">
                     <div className="conteudo-obj">
                         <h1>Nosso Objetivo</h1>
-                        <p>Desenvolver projetos de pesquisa voltados para a abordagem dos problemas de saúde ao nível da atenção primária, com foco em um acesso universal aos cuidados em saúde.</p>
+                        <p>Desenvolvemos projetos de pesquisa focados em solucionar problemas de saúde na atenção primária, visando garantir o acesso universal aos cuidados em saúde.</p>
                     </div>
                 </div>
             </div>
